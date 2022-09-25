@@ -2,13 +2,13 @@
   <header class="base-header">
     <div class="Home">
       <base-button>
-        <font-awesome-icon class="icon" :icon="['fas', 'home']" /> Acceuil
+        <font-awesome-icon class="icon" :icon="['fas', 'house-user']" /> Acceuil
       </base-button>
 
       <div class="connection" />
 
       <base-button>
-        <font-awesome-icon class="icon" :icon="['fas', 'user']" /> Vous n'êtes pas connecté
+        <font-awesome-icon class="icon" :icon="['fas', 'user-circle']" /> Vous n'êtes pas connecté
       </base-button>
 
     </div>

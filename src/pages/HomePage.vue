@@ -38,7 +38,7 @@
     name: 'HomePage',
     components: {BaseButton, AsyncButton},
     methods: {
-      wait ()
+      wait()
       {
         return new Promise(resolve => setTimeout(resolve, 2000))
       }
