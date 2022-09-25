@@ -1,20 +1,26 @@
 <template>
   <header class="base-header">
     <div class="Home">
-      <font-awesome-icon class="icon" :icon="['fas', 'home']" /> Acceuil
+      <base-button>
+        <font-awesome-icon class="icon" :icon="['fas', 'home']" /> Acceuil
+      </base-button>
 
       <div class="connection" />
 
-      <font-awesome-icon class="icon" :icon="['fas', 'user']" /> Vous n'êtes pas connecté
+      <base-button>
+        <font-awesome-icon class="icon" :icon="['fas', 'user']" /> Vous n'êtes pas connecté
+      </base-button>
 
     </div>
   </header>
 </template>
 
 <script>
+  import BaseButton from "@/components/BaseButton";
   export default
   {
     name: 'BaseHeader',
+    components: {BaseButton},
   }
 </script>
 
